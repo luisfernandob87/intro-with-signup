@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+<body class="contenedor">
+<header class="header">
+<h1>Learn to code by watching others</h1>
+
+<p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable.</p>
+</header>
+<div class="suscripcion">
+<p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+</div>
+
+
+
+<form class="formulario" id="formulario">
+<input id="first_name" class="field field-first-name" type="text" placeholder="First Name">
+<p class="msg-error">First name cannot be empty</p>
+<input id="last_name" class="field field-last-name" type="text" placeholder="Last Name">
+<p class="msg-error">Last name cannot be empty</p>
+<input id="email" class="field field-email" type="email" placeholder="Email Address">
+<p class="msg-error">Looks like this is not an email</p>
+<input class="field field-password" id="pwd" type="password" placeholder="Password">
+<p class="msg-error">Password cannot be empty</p>
+<button id="claim" class="btn-claim-trial" type="submit">Claim your free trial</button>
+<legend>By clicking the button, you are agreeing to our <span>Terms and Services</span></legend>
+</form>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.linkedin.com/in/luis-morales-barillas" target="_blank">Luis Morales</a>.
+    </p>
+  </footer>
+  <script src="/js/app.js"></script>
+</body>
+</html>
